@@ -1,5 +1,4 @@
-// const tour = require("../models/tour");
-const { getTourServices  } = require("../services/tour.services")
+const { getTourServices, postTourService  } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
@@ -53,6 +52,26 @@ exports.getTours = async (req, res, next) => {
             status: "fail",
             message: "Can't get the data",
             error: error.message,
+        })
+    }
+}
+
+exports.postTour = async (req, res, next) => {
+    try {
+        const result = await postTourService(req.body);
+
+        result.logger();
+
+        res.status(200).json({
+            status: 'success',
+            message: 'Data inserted successfully!',
+            data: result
+        })
+    } catch (error) {
+        res.status(400).json({
+            status: 'fail',
+            message: 'Data is not inserted',
+            error: error.message
         })
     }
 }

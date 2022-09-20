@@ -27,6 +27,10 @@ const tourSchema = mongoose.Schema({
         required: true,
         min: [0, "Price can't be negative."],
     },
+    image: {
+        type: String,
+        required: [true, "Please provide an image URL for this tour package."],
+    },
 }, {
     timestamps: true,
 }

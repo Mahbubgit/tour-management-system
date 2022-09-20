@@ -13,3 +13,8 @@ exports.getTourServices = async (filters, queries) => {
 
     return { totalTourPackage, pageCount, tours };
 }
+
+exports.postTourService = async (data) => {
+    const tour = await Tour.create(data);
+    return tour;
+}
