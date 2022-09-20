@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
 const app = express();
-const port = process.env.PORT || 5000;
+const mongoose = require("mongoose");
+
+//routes
+const tourRoute = require('./routes/tour.route');
 
 // middleware
 app.use(cors());
@@ -13,6 +15,6 @@ app.get('/', (req, res) => {
     res.send('Tour Management System.')
 })
 
-app.listen(port, () => {
-    console.log(`Tour Management System app listening on port ${port}`)
-})
+app.use('/app/v1/tours', tourRoute);
+
+module.exports = app;

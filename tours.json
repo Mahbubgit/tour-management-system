@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Cox's Bazar Package - 2 Nights",
+        "description": "Cox's Bazar Family Package with 3 Days and 2 Nights.",
+        "location": "Cox's Bazar, Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 15000,
+        "image": "https://ibb.co/bdjBbqr"
+    },
+    {
+        "name": "Cox's Bazar Package - 3 Nights",
+        "description": "Cox's Bazar Family Package with 4 Days and 3 Nights.",
+        "location": "Cox's Bazar, Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 20000,
+        "image": "https://ibb.co/nwNdFWZ"
+    },
+    {
+        "name": "Cox's Bazar Package - 5 Nights",
+        "description": "Cox's Bazar Family Package with 6 Days and 5 Nights.",
+        "location": "Cox's Bazar, Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 30000,
+        "image": "https://ibb.co/zGv675F"
+    },
+    {
+        "name": "Sylhet Package Tour - 2 Nights",
+        "description": "Sylhet Family Package with 3 Days and 2 Nights.",
+        "location": "Sylhet, Sylhet",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 20000,
+        "image": "https://ibb.co/NYhBDfW"
+    },
+    {
+        "name": "Sylhet Package Tour - 3 Nights",
+        "description": "Sylhet Family Package with 4 Days and 3 Nights.",
+        "location": "Sylhet, Sylhet",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 25000,
+        "image": "https://ibb.co/2gH6QHD"
+    },
+    {
+        "name": "Sylhet Package Tour - 5 Nights",
+        "description": "Sylhet Family Package with 6 Days and 5 Nights.",
+        "location": "Sylhet, Sylhet",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 35000,
+        "image": "https://ibb.co/6vx416m"
+    },
+    {
+        "name": "Sylhet Package Tour - 6 Nights",
+        "description": "Sylhet Family Package with 7 Days and 6 Nights.",
+        "location": "Sylhet, Sylhet",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 40000,
+        "image": "https://ibb.co/Y77Wv2r"
+    },
+    {
+        "name": "Chittagong Package Tour - 3 Nights",
+        "description": "Chittagong Family Package with 4 Days and 3 Nights.",
+        "location": "Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 25000,
+        "image": "https://ibb.co/zFFsn2h"
+    },
+    {
+        "name": "Chittagong Package Tour - 5 Nights",
+        "description": "Chittagong Family Package with 6 Days and 5 Nights.",
+        "location": "Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 35000,
+        "image": "https://ibb.co/72DNr7q"
+    },
+    {
+        "name": "Chittagong Package Tour - 6 Nights",
+        "description": "Chittagong Family Package with 7 Days and 6 Nights.",
+        "location": "Chittagong",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 40000,
+        "image": "https://ibb.co/w4fKyPj"
+    },
+    {
+        "name": "Rajshahi Package Tour - 2 Nights",
+        "description": "Rajshahi Family Package with 3 Days and 2 Nights.",
+        "location": "Rajshahi",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 15000,
+        "image": "https://ibb.co/1MM6fD2"
+    },
+    {
+        "name": "Rajshahi Package Tour - 3 Nights",
+        "description": "Rajshahi Family Package with 4 Days and 3 Nights.",
+        "location": "Rajshahi",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 20000,
+        "image": "https://ibb.co/94ZGh0T"
+    },
+    {
+        "name": "Rajshahi Package Tour - 5 Nights",
+        "description": "Rajshahi Family Package with 6 Days and 5 Nights.",
+        "location": "Rajshahi",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 25000,
+        "image": "https://ibb.co/rmzPQc2"
+    },
+    {
+        "name": "Rajshahi Package Tour - 6 Nights",
+        "description": "Rajshahi Family Package with 7 Days and 6 Nights.",
+        "location": "Rajshahi",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 30000,
+        "image": "https://ibb.co/42ymq52"
+    },
+    {
+        "name": "Khulna Package Tour - 2 Nights",
+        "description": "Khulna Family Package with 3 Days and 2 Nights.",
+        "location": "Khulna",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 15000,
+        "image": "https://ibb.co/4g95pGz"
+    },
+    {
+        "name": "Khulna Package Tour - 3 Nights",
+        "description": "Khulna Family Package with 4 Days and 3 Nights.",
+        "location": "Khulna",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 20000,
+        "image": "https://ibb.co/hWnNw1r"
+    },
+    {
+        "name": "Khulna Package Tour - 5 Nights",
+        "description": "Khulna Family Package with 6 Days and 5 Nights.",
+        "location": "Khulna",
+        "features": "Free pickup and drop facility, Free professional guide",
+        "price": 25000,
+        "image": "https://ibb.co/hWnNw1r"
+    }
+]
