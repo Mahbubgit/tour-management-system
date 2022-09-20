@@ -1,4 +1,7 @@
-const { getTourServices, postTourService  } = require("../services/tour.services")
+const { ObjectId } = require("mongodb");
+// const { getDb } = require("../utility/dbConnect");
+
+const { getTourServices, postTourService, viewTourByIdService  } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
@@ -75,3 +78,29 @@ exports.postTour = async (req, res, next) => {
         })
     }
 }
+
+module.exports.getTourDetails = async (req, res, next) => {
+    try {
+        const { id } = req.params;
+
+        if (!ObjectId.isValid(id)) {
+            return res.status(400).json({ success: false, error: "Please provide a valid tour id!" });
+        }
+
+        const tour = await viewTourByIdService(id, req.body);
+        
+        if (!tour) {
+            return res.status(400).json({ success: false, error: "Couldn't find a tour package with this id." });
+        }
+
+        res.status(200).json({ success: true, data: tour });
+
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: "Can't get the data.",
+            error: error.message,
+        })
+
+    }
+};

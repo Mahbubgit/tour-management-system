@@ -1,3 +1,4 @@
+const viewCount = require('../middleware/viewCount');
 const Tour = require('../models/tour');
 
 exports.getTourServices = async (filters, queries) => {
@@ -9,7 +10,7 @@ exports.getTourServices = async (filters, queries) => {
         .sort(queries.sortBy);
 
     const totalTourPackage = await Tour.countDocuments(filters);
-    const pageCount = Math.ceil(totalTourPackage/queries.limit);
+    const pageCount = Math.ceil(totalTourPackage / queries.limit);
 
     return { totalTourPackage, pageCount, tours };
 }
@@ -18,3 +19,9 @@ exports.postTourService = async (data) => {
     const tour = await Tour.create(data);
     return tour;
 }
+
+exports.viewTourByIdService = async (tourId, data) => {
+    const result = await Tour.findById(tourId);
+    return result;
+}
+
