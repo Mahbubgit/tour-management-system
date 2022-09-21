@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 // const { getDb } = require("../utility/dbConnect");
 
-const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService, viewTourTrendService } = require("../services/tour.services")
+const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService, viewTourTrendService, viewCheapestTourService } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
@@ -140,3 +140,19 @@ module.exports.getTourTrending = async (req, res, next) => {
     }
 };
 
+module.exports.getCheapestTour = async (req, res, next) => {
+    try {
+
+        const cheapestTour = await viewCheapestTourService(req.body);
+
+        res.status(200).json({ success: true, data: cheapestTour });
+
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: "Can't get cheapest tour data.",
+            error: error.message,
+        })
+
+    }
+};
