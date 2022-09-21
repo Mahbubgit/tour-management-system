@@ -1,12 +1,9 @@
 const { ObjectId } = require("mongodb");
-// const { getDb } = require("../utility/dbConnect");
 
 const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService, viewTourTrendService, viewCheapestTourService } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
-
-        console.log(req.query);
 
         let filters = { ...req.query };
 
@@ -26,7 +23,6 @@ exports.getTours = async (req, res, next) => {
         if (req.query.sort) {
             const sortBy = req.query.sort.split(',').join(' ');
             queries.sortBy = sortBy;
-            // console.log(sortBy);
         }
         // End of Query with Sorting //
 
@@ -34,7 +30,6 @@ exports.getTours = async (req, res, next) => {
         if (req.query.fields) {
             const fields = req.query.fields.split(',').join(' ');
             queries.fields = fields;
-            // console.log(fields);
         }
 
         if (req.query.page) {
@@ -42,7 +37,7 @@ exports.getTours = async (req, res, next) => {
             const skip = (page - 1) * parseInt(limit);
             queries.skip = skip;
             queries.limit = parseInt(limit);
-            console.log(queries.skip, queries.limit);
+            // console.log(queries.skip, queries.limit);
         }
 
         const tours = await getTourServices(filters, queries);
@@ -121,7 +116,6 @@ exports.updateTourInfoById = async (req, res, next) => {
         })
     }
 }
-
 
 module.exports.getTourTrending = async (req, res, next) => {
     try {

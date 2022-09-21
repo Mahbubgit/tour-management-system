@@ -5,7 +5,8 @@
         "location": "Cox's Bazar, Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 15000,
-        "image": "https://ibb.co/bdjBbqr"
+        "image": "https://ibb.co/bdjBbqr",
+        "view": 5
     },
     {
         "name": "Cox's Bazar Package - 3 Nights",
@@ -13,7 +14,8 @@
         "location": "Cox's Bazar, Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 20000,
-        "image": "https://ibb.co/nwNdFWZ"
+        "image": "https://ibb.co/nwNdFWZ",
+        "view": 7
     },
     {
         "name": "Cox's Bazar Package - 5 Nights",
@@ -21,7 +23,8 @@
         "location": "Cox's Bazar, Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 30000,
-        "image": "https://ibb.co/zGv675F"
+        "image": "https://ibb.co/zGv675F",
+        "view": 4
     },
     {
         "name": "Sylhet Package Tour - 2 Nights",
@@ -29,7 +32,8 @@
         "location": "Sylhet, Sylhet",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 20000,
-        "image": "https://ibb.co/NYhBDfW"
+        "image": "https://ibb.co/NYhBDfW",
+        "view": 8
     },
     {
         "name": "Sylhet Package Tour - 3 Nights",
@@ -37,7 +41,8 @@
         "location": "Sylhet, Sylhet",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 25000,
-        "image": "https://ibb.co/2gH6QHD"
+        "image": "https://ibb.co/2gH6QHD",
+        "view": 10
     },
     {
         "name": "Sylhet Package Tour - 5 Nights",
@@ -45,7 +50,8 @@
         "location": "Sylhet, Sylhet",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 35000,
-        "image": "https://ibb.co/6vx416m"
+        "image": "https://ibb.co/6vx416m",
+        "view": 6
     },
     {
         "name": "Sylhet Package Tour - 6 Nights",
@@ -53,7 +59,8 @@
         "location": "Sylhet, Sylhet",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 40000,
-        "image": "https://ibb.co/Y77Wv2r"
+        "image": "https://ibb.co/Y77Wv2r",
+        "view": 5
     },
     {
         "name": "Chittagong Package Tour - 3 Nights",
@@ -61,7 +68,8 @@
         "location": "Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 25000,
-        "image": "https://ibb.co/zFFsn2h"
+        "image": "https://ibb.co/zFFsn2h",
+        "view": 1
     },
     {
         "name": "Chittagong Package Tour - 5 Nights",
@@ -69,7 +77,8 @@
         "location": "Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 35000,
-        "image": "https://ibb.co/72DNr7q"
+        "image": "https://ibb.co/72DNr7q",
+        "view": 0
     },
     {
         "name": "Chittagong Package Tour - 6 Nights",
@@ -77,7 +86,8 @@
         "location": "Chittagong",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 40000,
-        "image": "https://ibb.co/w4fKyPj"
+        "image": "https://ibb.co/w4fKyPj",
+        "view": 2
     },
     {
         "name": "Rajshahi Package Tour - 2 Nights",
@@ -85,7 +95,8 @@
         "location": "Rajshahi",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 15000,
-        "image": "https://ibb.co/1MM6fD2"
+        "image": "https://ibb.co/1MM6fD2",
+        "view": 3
     },
     {
         "name": "Rajshahi Package Tour - 3 Nights",
@@ -93,7 +104,8 @@
         "location": "Rajshahi",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 20000,
-        "image": "https://ibb.co/94ZGh0T"
+        "image": "https://ibb.co/94ZGh0T",
+        "view": 5
     },
     {
         "name": "Rajshahi Package Tour - 5 Nights",
@@ -101,7 +113,8 @@
         "location": "Rajshahi",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 25000,
-        "image": "https://ibb.co/rmzPQc2"
+        "image": "https://ibb.co/rmzPQc2",
+        "view": 4
     },
     {
         "name": "Rajshahi Package Tour - 6 Nights",
@@ -109,7 +122,8 @@
         "location": "Rajshahi",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 30000,
-        "image": "https://ibb.co/42ymq52"
+        "image": "https://ibb.co/42ymq52",
+        "view": 12
     },
     {
         "name": "Khulna Package Tour - 2 Nights",
@@ -117,7 +131,8 @@
         "location": "Khulna",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 15000,
-        "image": "https://ibb.co/4g95pGz"
+        "image": "https://ibb.co/4g95pGz",
+        "view": 6
     },
     {
         "name": "Khulna Package Tour - 3 Nights",
@@ -125,7 +140,8 @@
         "location": "Khulna",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 20000,
-        "image": "https://ibb.co/hWnNw1r"
+        "image": "https://ibb.co/hWnNw1r",
+        "view": 8
     },
     {
         "name": "Khulna Package Tour - 5 Nights",
@@ -133,6 +149,7 @@
         "location": "Khulna",
         "features": "Free pickup and drop facility, Free professional guide",
         "price": 25000,
-        "image": "https://ibb.co/hWnNw1r"
+        "image": "https://ibb.co/hWnNw1r",
+        "view": 6
     }
 ]

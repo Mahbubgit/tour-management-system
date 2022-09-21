@@ -1,4 +1,3 @@
-const viewCount = require('../middleware/viewCount');
 const Tour = require('../models/tour');
 
 exports.getTourServices = async (filters, queries) => {
