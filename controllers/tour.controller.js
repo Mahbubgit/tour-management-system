@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 // const { getDb } = require("../utility/dbConnect");
 
-const { getTourServices, postTourService, viewTourByIdService  } = require("../services/tour.services")
+const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService  } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
@@ -104,3 +104,20 @@ module.exports.getTourDetails = async (req, res, next) => {
 
     }
 };
+
+exports.updateTourInfoById = async (req, res, next) => {
+    try {
+        const { id } = req.params;
+        const result = await updateTourInfoByIdService(id, req.body);
+        res.status(200).json({
+            status: "success",
+            message: "Successfully updated the tour information."
+        })
+    } catch (error) {
+        res.status(400).json({
+            status: 'fail',
+            message: "Couldn't update the tour information",
+            error: error.message
+        })
+    }
+}

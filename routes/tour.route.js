@@ -9,5 +9,6 @@ router.route('/')
 
 router.route("/:id")
     .get(viewCount, tourController.getTourDetails)
+    .patch(tourController.updateTourInfoById)
 
 module.exports = router;

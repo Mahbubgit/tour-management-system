@@ -20,8 +20,14 @@ exports.postTourService = async (data) => {
     return tour;
 }
 
-exports.viewTourByIdService = async (tourId, data) => {
+exports.viewTourByIdService = async (tourId) => {
     const result = await Tour.findById(tourId);
     return result;
 }
 
+exports.updateTourInfoByIdService = async (tourId, data) => {
+    const result = await Tour.updateOne({ _id: tourId }, { $set: data }, {
+        runValidators: true
+    });
+    return result;
+}
