@@ -11,4 +11,7 @@ router.route("/:id")
     .get(viewCount, tourController.getTourDetails)
     .patch(tourController.updateTourInfoById)
 
+router.route("/tour/trending")
+    .get(tourController.getTourTrending)
+
 module.exports = router;

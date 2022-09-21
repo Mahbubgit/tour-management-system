@@ -1,19 +1,19 @@
 const { ObjectId } = require("mongodb");
 // const { getDb } = require("../utility/dbConnect");
 
-const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService  } = require("../services/tour.services")
+const { getTourServices, postTourService, viewTourByIdService, updateTourInfoByIdService, viewTourTrendService } = require("../services/tour.services")
 
 exports.getTours = async (req, res, next) => {
     try {
-       
+
         console.log(req.query);
 
         let filters = { ...req.query };
-       
+
         // sort, page, limit --> exclude
         const excludeFields = ['sort', 'page', 'limit'];
         excludeFields.forEach(field => delete filters[field]);
-       
+
         // Filter (gt, lt, gte, lte) and added $ sign before (gt, lt, gte, lte)
         let filtersString = JSON.stringify(filters);
         filtersString = filtersString.replace(/\b(gt|gte|lt|lte)\b/g, match => `$${match}`);
@@ -88,7 +88,7 @@ module.exports.getTourDetails = async (req, res, next) => {
         }
 
         const tour = await viewTourByIdService(id, req.body);
-        
+
         if (!tour) {
             return res.status(400).json({ success: false, error: "Couldn't find a tour package with this id." });
         }
@@ -121,3 +121,22 @@ exports.updateTourInfoById = async (req, res, next) => {
         })
     }
 }
+
+
+module.exports.getTourTrending = async (req, res, next) => {
+    try {
+
+        const tourTrend = await viewTourTrendService(req.body);
+
+        res.status(200).json({ success: true, data: tourTrend });
+
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: "Can't get tour trending data.",
+            error: error.message,
+        })
+
+    }
+};
+
